@@ -1,0 +1,8 @@
+.AppComponent {
+  background: url("./img/background.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: right;
+  margin-bottom: 20px;
+}

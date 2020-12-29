@@ -14,7 +14,10 @@ export default function NavbarComponent() {
     >
       <center>
         {" "}
-        <span className="text-center" style={{ fontSize: "20px" }}>
+        <span
+          className="text-center"
+          style={{ fontSize: "30px", fontFamily: "'Poppins', sans-serif" }}
+        >
           HexaConvert | Convert Image to Text
         </span>
       </center>
