@@ -96,7 +96,7 @@ export default function HomeComponent() {
           </div>
           <br />
           <button className="btn btn-primary" onClick={uploadImage}>
-            UPLOAD IMAGE
+            Convert Image
           </button>
         </center>
       </div>
@@ -127,7 +127,8 @@ export default function HomeComponent() {
           ) : (
             <div>
               <p className="text-center">
-                This app allow users to upload an image and converts it to text
+                Extract text from images (JPG, PNG) and convert into editable
+                Text output format
               </p>
               <h6 className="text-center">
                 Developed by Senura Vihan Jayadeva
