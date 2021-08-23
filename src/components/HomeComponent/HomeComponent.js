@@ -58,7 +58,8 @@ export default function HomeComponent() {
                   config
                 )
                 .then((res) => {
-                  //console.log(res.data.regions[0].lines);
+                  // console.log(res);
+                  // console.log(res.data.regions[0].lines);
                   setLines(res.data.regions[0].lines);
                   setGetText(true);
                 })
